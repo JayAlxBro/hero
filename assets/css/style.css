@@ -3,6 +3,10 @@
   font-family: 'Salsa', cursive;
 }
 
+.about-us {
+  font-size: 24px;
+}
+
 /* Tablet and up */
 @media (min-width: 768px) {
   .contact-us {
