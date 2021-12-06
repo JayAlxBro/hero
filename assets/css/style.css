@@ -1,10 +1,18 @@
 /* Phone */
+.main {
+  height:auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: left;
+}
+
 .body {
-  font-family: font-family: 'Ruluko', sans-serif;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 24px;
 }
 
 .about-us {
-  font-size: 24px;
+
 }
 
 /* Tablet and up */
