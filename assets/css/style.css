@@ -1,0 +1,27 @@
+/* Phone */
+.main {
+  height:auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: left;
+}
+
+.body {
+  font-family: 'Ruluko', sans-serif;
+  font-size: 24px;
+}
+
+.about-us {
+
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  .contact-us {
+    font-size: 36px;
+  }
+}
+
+/* Desktop and up */
+@media (min-width: 1440px) {
+}
