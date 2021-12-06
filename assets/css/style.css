@@ -1,0 +1,15 @@
+/* Phone */
+.contact-us {
+  font-family: 'Salsa', cursive;
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  .contact-us {
+    font-size: 36px;
+  }
+}
+
+/* Desktop and up */
+@media (min-width: 1440px) {
+}
