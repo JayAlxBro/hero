@@ -1,7 +1,17 @@
+.opener{
+  font-size: 40px;
+  text-align: center;
+}
 h2 {
   justify-items: center;
   font-size: 48px;
   color: #fff;
-  background-color: #ae2411;
-  text-align: center;
+  background-color: #00493A;
+  text-align: left;
+}
+
+div{
+  columns: 12px 12px 12px;
+  rows: 12px 12px 12px;
+
 }
