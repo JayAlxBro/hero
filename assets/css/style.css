@@ -4,7 +4,6 @@
   display: grid;
   grid-template-columns: 1fr;
   place-items: left;
-  background-color: #edf0ee;
 }
 
 .body {
@@ -12,66 +11,14 @@
   font-size: 24px;
 }
 
-.footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  background-color: #00735c;
-  color: white;
-  text-align: center;
-  font-size: 24px;
-  left: 0;
-}
-
 .about-us {
 }
 
-.contact-label {
-  height: 100px;
-  /* background-color: #00735c; */
-  background-image: linear-gradient(to right, #00493a, #00735c);
-  text-align: center;
-  color: white;
-}
-
-.contact-us {
-  text-align: center;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55acee;
-  color: white;
-}
 
 /* Tablet and up */
 @media (min-width: 768px) {
   .contact-us {
     font-size: 36px;
-    text-align: left;
   }
 }
 
