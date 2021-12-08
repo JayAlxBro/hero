@@ -1,6 +1,6 @@
 /* Phone */
 .main {
-  height:auto;
+  height: auto;
   display: grid;
   grid-template-columns: 1fr;
   place-items: left;
@@ -12,8 +12,8 @@
 }
 
 .about-us {
-
 }
+
 
 /* Tablet and up */
 @media (min-width: 768px) {
