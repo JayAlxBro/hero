@@ -39,9 +39,27 @@
   padding: 50px 40px;
 }
 
+/* Homepage Slogan CSS */
 
+.slogans {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
-/*Menu Items*/
+.slogan img,
+h2 {
+  max-width: 100%;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.slogan h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+/*Menu Items CSS*/
 
 .menu-section-title {
   background-color: #00493a;
@@ -71,7 +89,7 @@
   height: 250px;
 }
 
-/* Footer */
+/* Footer CSS */
 
 #main-footer {
   background-color: #000000;
@@ -80,12 +98,12 @@
 }
 
 button {
-
 }
-
 
 /* Tablet and up*/
 @media (min-width: 768px) {
+  /* Navigation Menu CSS */
+
   #navbar a {
     font-size: 36px;
   }
@@ -94,35 +112,52 @@ button {
     font-size: 72px;
   }
 
+  /* Menu Items CSS */
+
   .main-quote {
-  font-size: 25x;
-  padding: 60px;
-  text-align: center;
-}
+    font-size: 25x;
+    padding: 60px;
+    text-align: center;
+  }
 
-.menu-items {
-  grid-template-columns: 1fr 1fr;
-}
+  .menu-items {
+    grid-template-columns: 1fr 1fr;
+  }
 
-.menu-item img {
-  max-width: 100%;
-  border-radius: 15%;
-  width: 100%;
-  height: auto;
-}
+  .menu-item img {
+    max-width: 100%;
+    border-radius: 15%;
+    width: 100%;
+    height: auto;
+  }
 
-.menu-item p {
-  font-size: 24px;
-}
+  .menu-item p {
+    font-size: 24px;
+  }
+
+  /* Homepage Slogan CSS */
+
+  .slogans {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .slogan img {
+    width: 80%;
+  }
 }
 
 /* Desktop and up*/
 @media (min-width: 1440px) {
-
   .menu-items {
-  grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .slogans {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .slogan img {
+    width: 100%;
+    height: 90%;
+  }
 }
-}
-
-
-
