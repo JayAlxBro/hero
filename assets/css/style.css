@@ -29,46 +29,6 @@
   grid-template-columns: 2fr 3fr;
 }
 
-/* footer */
-#footer {
-  position: fixed;
-  bottom: 0;
-  background-color: #00493a;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55acee;
-  color: white;
-}
-
 /* Tablet and up */
 @media (min-width: 768px) {
   .contact-us {
