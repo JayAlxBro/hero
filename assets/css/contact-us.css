@@ -25,6 +25,17 @@
   font-size: 36px;
 }
 
+/* footer */
+#footer {
+  position: static;
+  bottom: 0;
+  background-color: #00493a;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
 .fa {
   padding: 20px;
   font-size: 20px;
@@ -51,16 +62,6 @@
 
 .fa-twitter {
   background: #55acee;
-  color: white;
-}
-
-#footer {
-  position: fixed;
-  bottom: 0;
-  background-color: #00493a;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
   color: white;
 }
 
