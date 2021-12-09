@@ -14,11 +14,30 @@
 .about-us {
 }
 
+/* Menu Items */
+.menu-section-title {
+  background: #00493a;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.menu-item {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
 
 /* Tablet and up */
 @media (min-width: 768px) {
   .contact-us {
     font-size: 36px;
+  }
+
+  /* Menu Items */
+  .menu-items {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
