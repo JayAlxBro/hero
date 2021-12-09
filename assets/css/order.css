@@ -31,11 +31,12 @@
   grid-template-columns: 2fr 3fr;
 }
 
+
 /* Tablet and up */
   .order-items {
     grid-template-columns: 1fr 1fr;
   }
-}
+
 
 /* Desktop and up */
 @media (min-width: 1440px) {
