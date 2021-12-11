@@ -1,14 +1,15 @@
+/* Phone */
 .main {
   height: auto;
-  display: grid;
-  grid-template-columns: 1fr 4fr;
+  /* display: grid;
+  grid-template-columns: 1fr 4fr; */
   place-items: left;
 }
 
-.body {
+/* .body {
   font-family: 'Ruluko', sans-serif;
   font-size: 36px;
-}
+} */
 
 .about-title {
   height: 100px;
@@ -19,19 +20,95 @@
   text-align: left;
   padding-top: 10px;
   padding-left: 37px;
+  font-family: 'Ruluko', sans-serif;
+}
+
+.hero-about-heading {
+  padding-top: 70px;
+  padding-left: 41px;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 24px;
+}
+.hero-about-heading-content {
+  padding-top: 5px;
+  padding-left: 41px;
+  padding-right: 19px;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 24px;
+}
+.hero-about-history {
+  padding-top: 41px;
+  padding-left: 37px;
+  padding-right: 19px;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 24px;
+}
+.hero-about-history-content {
+  padding-top: 5px;
+  padding-left: 41px;
+  padding-right: 19px;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 24px;
+}
+.hero-about-new-para {
+  padding-top: 24px;
+  padding-left: 41px;
+  padding-right: 19px;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 24px;
+}
+
+/* About Items */
+.about-items {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.crust-pizza-img {
+  padding-left: 55px;
+}
+
+.crust-pizza-heading {
+  padding-top: 75px;
+  padding-left: 89px;
+  padding-bottom: 18px;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 24px;
+}
+.crust-pizza-body {
+  width: 259px;
+  height: 140px;
+  padding-top: 35px;
+  padding-left: 83px;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 24px;
+}
+.shabu-img {
+  padding-left: 67px;
+}
+.shabu-heading {
+  padding-top: 86px;
+  padding-left: 99px;
+  padding-bottom: 28px;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 24px;
+}
+
+.shabu-body {
+  padding-top: 27px;
+  padding-left: 42px;
+  width: 345px;
+  height: 168px;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 24px;
 }
 
 /* Tablet and up */
 @media (min-width: 768px) {
-  /* About Items */
-  .about-items {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-  }
   .hero-about-heading {
     padding-top: 37px;
     padding-left: 37px;
     padding-right: 18px;
+    font-size: 36px;
   }
   .hero-about-heading-content {
     padding-top: 8.7px;
@@ -53,34 +130,46 @@
     padding-left: 37px;
     padding-right: 19px;
   }
-  .crust-pizza {
+  /* About Items */
+  .about-items {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+  .crust-pizza-img {
     padding-left: 41px;
-    padding-bottom: 43px;
   }
 
   .crust-pizza-heading {
     padding-top: 130px;
     padding-left: 75px;
     padding-bottom: 18px;
+    font-family: 'Ruluko', sans-serif;
+    font-size: 24px;
   }
   .crust-pizza-body {
     width: 259px;
     height: 140px;
     padding-left: 75px;
+    font-family: 'Ruluko', sans-serif;
+    font-size: 24px;
   }
-  .shabu {
-    padding-left: 50px;
+  .shabu-img {
+    padding-left: 75px;
   }
   .shabu-heading {
     padding-top: 130px;
     padding-left: 107px;
     padding-bottom: 28px;
+    font-family: 'Ruluko', sans-serif;
+    font-size: 24px;
   }
 
   .shabu-body {
     padding-top: 27px;
     width: 345px;
     height: 168px;
+    font-family: 'Ruluko', sans-serif;
+    font-size: 24px;
   }
 }
 
