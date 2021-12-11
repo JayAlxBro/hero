@@ -18,3 +18,8 @@
   font-size: 48px;
   text-align: left;
 }
+
+/* About Items */
+.about-items {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
