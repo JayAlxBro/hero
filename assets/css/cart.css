@@ -1,11 +1,9 @@
-
 article {
   height: auto;
   display: grid;
 
   margin: 0;
   padding: 30px;
-
 }
 
 body {
@@ -43,5 +41,4 @@ body {
   font-size: 30px;
   color: #000;
   background-color: #9db9ab8c;
-
 }
