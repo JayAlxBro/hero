@@ -38,9 +38,17 @@
 
 /* Tablet and up */
   .order-items {
-    grid-template-columns: 1fr 1fr 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr;
 
   }
+
+.order-item {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+   row-gap: 20px
+
+
+}
 
 
 /* Desktop and up */
