@@ -16,94 +16,138 @@
     <link rel="stylesheet" href="/assets/css/order.css">
 </head>
 <body>
-    <nav id="navbar">
-        <ul>
-            <li><a href="/about-us/">About</a></li>
-            <li><a href="/menu/">Menu</a></li>
-            <li><a class="title" href="/">Hero</a></li>
-            <li><a href="/order/">Order</a></li>
-            <li><a href="/contact-us/">Contact</a></li>
-        </ul>
-    </nav>
-
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="/about-us/">About</a></li>
+                <li><a href="/menu/">Menu</a></li>
+                <li><a class="title" href="/">Hero</a></li>
+                <li><a href="/order/">Order</a></li>
+                <li><a href="/contact-us/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
+
         <!-- Order paragraph  -->
 
         <p class="opener">You’re one step closer to having a healthy meal, fast.</p>
 
         <p class="opener">Just select the items and add-ions you would like. </p>
 
-        <!-- Order -->
+
+
         <section class="order">
-            <!-- breakfast -->
+
+            <!-- Breakfast -->
+
             <h2 class="order-section-title">Breakfast</h2>
+
+
 
             <div class="order-items">
 
+
+
                 <div class="order-item">
-                    <img class="toast" src="/assets/img/avacadoToast.jpg" alt="avacado toast with egg">
 
-                    <div class="order-item-title">
-                        <h3>Avacado Toast </h3>
+                    <img src="/assets/img/avacadoToast.jpg" alt="avacado toast with egg">
 
-                        <p>$3.95</p>
+                    <div class="order-info">
+
+                        <label for="avacado">Avacado Toast</label>
+                        <input type="number" id="avacado" name="avacado" min="0" max="100">
+
+                        <p>$5.95</p>
+
+                        <div>
+                            <input type="checkbox" id="scrambled" name="scrambled" checked>
+                            <label for="scrambled">Scrambled Egg</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="fried" name="fried">
+                            <label for="fried">Fried Egg</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="no-egg" name="no-egg">
+                            <label for="no-egg">No Egg</label>
+                        </div>
 
                     </div>
-
-                    <ul>
-                        <li>Scrambled Egg</li>
-                        <li>Fried Egg</li>
-                        <li>No Egg</li>
-                    </ul>
-
                 </div>
-
 
 
                 <div class="order-item">
                     <img src="/assets/img/omelet.png" alt="Egg White Omelet">
 
-                    <div class="order-item-title">
-                        <h3> Egg White Omelet </h3>
+                    <div class="order-info">
+
+                        <label for="order-title">Egg White Omelet</label>
+
+                        <input type="number" id="order-title" name="order-title" min="0" max="100">
 
 
                         <p>$4.95</p>
+
+
+                        <div>
+                            <input type="checkbox" id="bell-pepper" name="bell-pepper" checked>
+                            <label for="bell-pepper">No Bell Pepper</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="onion" name="onion">
+                            <label for="onion">No Onion</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="garlic" name="garlic">
+                            <label for="garlic">No Garlic</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="spinach" name="spinach">
+                            <label for="spinach">No Spinach</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="turkey" name="turkey">
+                            <label for="turkey">No Turkey Breakfast Sausage</label>
+                        </div>
+
                     </div>
-
-
-                    <ul>
-                        <li>No Bell Pepper</li>
-                        <li>No Onion</li>
-                        <li>No Garlic</li>
-                        <li>No Spinach</li>
-                        <li>No Turkey Breakfast Sausage </li>
-                    </ul>
-
                 </div>
 
             </div>
 
 
 
-            <!-- entrees -->
 
             <h2 class="order-section-title">Entrees</h2>
+
+
             <div class="order-items">
+
 
                 <div class="order-item">
 
                     <img src="/assets/img/bellPepperTacos.png" alt="Bell Pepper Tacos">
 
-                     <div class="order-item-title">
-                    <h3> Bell Pepper Tacos </h3>
+                    <div class="order-info">
 
-                    <p>5.95</p>
+                        <label for="tacos"> Bell Pepper Tacos</label>
+                        <input type="number" id="tacos" name="tacos" min="0" max="100">
 
-                    <ul>
-                        <li>Add Chicken</li>
-                        <li>Add Cheese</li>
-                    </ul>
-                </div>
+                        <p>5.95</p>
+
+                        <div>
+                            <input type="checkbox" id="chicken" name="chicken">
+                            <label for="chicken">Add Chicken</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="cheese" name="cheese">
+                            <label for="cheese">Add Cheese</label>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="order-item">
@@ -112,81 +156,114 @@
 
 
                     <div class="order-item-title">
-                        <h3> That's Impossible </h3>
+                        <div class="order-info">
 
-                    <p>$5.95 </p>
+                            <label for="impossible"> That's Impossible</label>
+                            <input type="number" id="impossible" name="impossible" min="0" max="100">
 
-                    <ul>
-                        <li>No Tomatoes</li>
-                        <li>No Mixed Greens</li>
-                        <li> No Red Onion</li>
-                        <li>No Vegan Mayo</li>
-                        <li>No Fries</li>
-                    </ul>
+                            <p>5.95</p>
+
+                            <div>
+                                <input type="checkbox" id="tomatoes" name="tomatoes">
+                                <label for="tomatoes">No Tomatoes</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="greens" name="greens">
+                                <label for="greens">No Mixed Greens</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="red-onion" name="red-onion">
+                                <label for="red-onion">No Red Onion</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="mayo" name="mayo">
+                                <label for="mayo">No Vegan Mayo</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="fries" name="fries">
+                                <label for="fries">No Fries</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="order-item">
+                        <img src="/assets/img/pizza.png" alt="Cauliflower Crust Pizza">
+
+                        <label for="pizza"> Califlower Crust Pizza </label>
+                        <input type="number" id="pizza" name="pizza" min="0" max="100">
+
+                        <p>7.95</p>
+
+                        <div>
+                            <input type="checkbox" id="pepperoni" name="pepperoni">
+                            <label for="pepperoni">Pepperoni</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="sausage" name="sausage">
+                            <label for="sausage">Sausage</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="veggie" name="veggie">
+                            <label for="veggie">Veggie</label>
+                        </div>
+                    </div>
                 </div>
-                </div>
 
-                <div class="order-item">
-                    <img src="/assets/img/pizza.png" alt="Cauliflower Crust Pizza">
-
-                    <div class="order-item-title">
-                    <h3> Califlower Crust Pizza </h3>
-
-                    <p>7.95</p>
-
-                    <ul>
-                        <li>Pepperoni</li>
-                        <li>Sausage</li>
-                        <li>Vegetables</li>
-                    </ul>
-                </div>
-</div>
             </div>
-
-
-            <!-- salads -->
 
             <h2 class="order-section-title">Salads</h2>
 
             <div class="order-item">
 
                 <img src="/assets/img/fruit-salad.png" alt="Fruit and Greens">
+ <div class="order-info">
+                <label for="fruit"> Fruit & Greens </label>
+                <input type="number" id="fruit" name="fruit" min="0" max="100">
 
-                <div class="order-item-title">
-                <h3> Fruit & Greens</h3>
                 <p>$4.95</p>
-            </div>
+ </div>
             </div>
 
             <div class="order-item">
 
                 <img src="/assets/img/order-images/caesar.jpg" alt="Caesar Salad">
+ <div class="order-info">
 
-                <div class="order-item-title">
-                <h3> Caesar Salad </h3>
+                <label for="caesar"> Caesar Salad </label>
+                <input type="number" id="caesar" name="caesar" min="0" max="100">
                 <p>$4.95</p>
             </div>
-        </div>
+            </div>
 
-            <!-- smoothies -->
+
 
             <h2 class="order-section-title">Smoothies</h2>
 
             <img src="/assets/img/smoothies.jpg" alt="smoothies">
+            <h3>$2.95</h3>
 
             <div class="order-item">
-                <h3> Green Machine</h3>
-                <p>$2.95</p>
+
+                <label for="green"> Green Machine </label>
+                <input type="number" id="green" name="green" min="0" max="100">
+
+
             </div>
 
             <div class="order-item">
-                <h3> Rosy Red</h3>
-                <p>$2.95</p>
+
+                <label for="red"> Rosy Red </label>
+                <input type="number" id="red" name="red" min="0" max="100">
             </div>
 
             <div class="order-item">
-                <h3> Orange Power </h3>
-                <p>$2.95</p>
+
+                <label for="orange"> Orange Power </label>
+                <input type="number" id="orange" name="orange" min="0" max="100">
             </div>
 
         </section>

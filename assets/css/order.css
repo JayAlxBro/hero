@@ -24,17 +24,22 @@
 .order-items {
   display: grid;
   grid-template-columns: 1fr;
+  row-gap: 20px;
+  margin: 30px;
 }
 
 .order-item {
   display: grid;
   grid-template-columns: 2fr 3fr;
+   row-gap: 20px
+
 }
 
 
 /* Tablet and up */
   .order-items {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr auto;
+
   }
 
 
