@@ -1,7 +1,7 @@
 .main {
   height: auto;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 4fr;
   place-items: left;
 }
 
@@ -17,9 +17,73 @@
   color: white;
   font-size: 48px;
   text-align: left;
+  padding-top: 10px;
+  padding-left: 37px;
 }
 
-/* About Items */
-.about-items {
-  display: grid;
-  grid-template-columns: 2fr 3fr;
+/* Tablet and up */
+@media (min-width: 768px) {
+  /* About Items */
+  .about-items {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+  .hero-about-heading {
+    padding-top: 37px;
+    padding-left: 37px;
+    padding-right: 18px;
+  }
+  .hero-about-heading-content {
+    padding-top: 8.7px;
+    padding-left: 37px;
+    padding-right: 18px;
+  }
+  .hero-about-history {
+    padding-top: 37px;
+    padding-left: 37px;
+    padding-right: 19px;
+  }
+  .hero-about-history-content {
+    padding-top: 5px;
+    padding-left: 37px;
+    padding-right: 18px;
+  }
+  .hero-about-new-para {
+    padding-top: 37px;
+    padding-left: 37px;
+    padding-right: 19px;
+  }
+  .crust-pizza {
+    padding-left: 41px;
+    padding-bottom: 43px;
+  }
+
+  .crust-pizza-heading {
+    padding-top: 130px;
+    padding-left: 75px;
+    padding-bottom: 18px;
+  }
+  .crust-pizza-body {
+    width: 259px;
+    height: 140px;
+    padding-left: 75px;
+  }
+  .shabu {
+    padding-left: 50px;
+  }
+  .shabu-heading {
+    padding-top: 130px;
+    padding-left: 107px;
+    padding-bottom: 28px;
+  }
+
+  .shabu-body {
+    padding-top: 27px;
+    width: 345px;
+    height: 168px;
+  }
+}
+
+/* Desktop and up */
+@media (min-width: 1440px) {
+}
