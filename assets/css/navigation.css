@@ -4,7 +4,7 @@
 }
 
 #navbar {
-  background-color: #00493A;
+  background-color: #00493a;
 }
 
 #navbar ul {
@@ -66,10 +66,4 @@
 
 /* Desktop and up*/
 @media (min-width: 1440px) {
-}
-
-#main-footer {
-  background-color: #000000;
-  color: #ffffff;
-  text-align: center;
 }
