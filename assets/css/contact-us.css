@@ -32,18 +32,18 @@
 
 /* Contact US Form */
 
-/* Style inputs with type="text", select elements and textareas */
+/* Fields */
 input[type='text'],
 select,
 textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* fields padding */
-  border: 1px solid #ccc; /* fields border */
-  border-radius: 4px; /* Fields Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* fields top margin */
-  margin-bottom: 16px; /* fields Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 /* Submit Button */
@@ -63,17 +63,18 @@ input[type='submit']:hover {
 
 /* form background */
 .container {
-  border-radius: 5px; /* form background radius*/
-  padding: 80px 100px 125px; /*form padding*/
+  border-radius: 5px;
+  padding: 80px 100px 125px;
 }
 
 /* Tablet and up */
 @media (min-width: 768px) {
   .contact-us {
   }
+  /* form background */
   .container {
-    border-radius: 5px; /* form background radius*/
-    padding: 80px 250px 100px; /*form padding*/
+    border-radius: 5px;
+    padding: 80px 250px 100px;
   }
   .contact-us-header {
     font-size: 24px;
@@ -82,9 +83,10 @@ input[type='submit']:hover {
 
 /* Desktop and up */
 @media (min-width: 1440px) {
+  /* form background */
   .container {
-    border-radius: 5px; /* form background radius*/
-    padding: 80px 300px 100px; /*form padding*/
+    border-radius: 5px;
+    padding: 80px 300px 100px;
   }
   .contact-us-header {
     font-size: 32px;
