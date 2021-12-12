@@ -18,7 +18,7 @@
   color: white;
   font-size: 48px;
   text-align: left;
-  padding-top: 10px;
+  padding-top: 50px;
   padding-left: 37px;
   font-family: 'Ruluko', sans-serif;
 }
@@ -79,6 +79,7 @@
   height: 140px;
   padding-top: 35px;
   padding-left: 83px;
+  text-align: center;
   font-family: 'Ruluko', sans-serif;
   font-size: 24px;
 }
@@ -98,6 +99,7 @@
   padding-left: 42px;
   width: 345px;
   height: 168px;
+  text-align: center;
   font-family: 'Ruluko', sans-serif;
   font-size: 24px;
 }
@@ -108,7 +110,6 @@
     padding-top: 37px;
     padding-left: 37px;
     padding-right: 18px;
-    font-size: 36px;
   }
   .hero-about-heading-content {
     padding-top: 8.7px;
@@ -143,15 +144,12 @@
     padding-top: 130px;
     padding-left: 75px;
     padding-bottom: 18px;
-    font-family: 'Ruluko', sans-serif;
-    font-size: 24px;
   }
   .crust-pizza-body {
     width: 259px;
     height: 140px;
     padding-left: 75px;
-    font-family: 'Ruluko', sans-serif;
-    font-size: 24px;
+    text-align: center;
   }
   .shabu-img {
     padding-left: 75px;
@@ -160,19 +158,56 @@
     padding-top: 130px;
     padding-left: 107px;
     padding-bottom: 28px;
-    font-family: 'Ruluko', sans-serif;
-    font-size: 24px;
   }
 
   .shabu-body {
     padding-top: 27px;
     width: 345px;
     height: 168px;
-    font-family: 'Ruluko', sans-serif;
-    font-size: 24px;
+    text-align: center;
   }
 }
 
 /* Desktop and up */
 @media (min-width: 1440px) {
+  .hero-about-heading {
+    font-size: 36px;
+  }
+  .hero-about-heading-content {
+    font-size: 36px;
+  }
+  .hero-about-history {
+    font-size: 36px;
+  }
+  .hero-about-history-content {
+    font-size: 36px;
+  }
+  .hero-about-new-para {
+    font-size: 36px;
+  }
+  /* About Items */
+  .about-items {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+  .crust-pizza-img {
+    padding-left: 41px;
+  }
+
+  .crust-pizza-heading {
+    font-size: 36px;
+  }
+  .crust-pizza-body {
+    font-size: 36px;
+  }
+  .shabu-img {
+    padding-left: 75px;
+  }
+  .shabu-heading {
+    font-size: 36px;
+  }
+
+  .shabu-body {
+    font-size: 36px;
+  }
 }
