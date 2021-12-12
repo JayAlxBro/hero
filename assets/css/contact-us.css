@@ -1,7 +1,6 @@
-/* html,
-body {
-  min-height: 100vh;
-} */
+* {
+  font-family: 'Ruluko', sans-serif;
+}
 
 /* Phone */
 .main {
@@ -11,11 +10,6 @@ body {
   place-items: left;
   background-color: #edf0ee;
 }
-
-/* .body {
-  font-family: 'Ruluko', sans-serif;
-  font-size: 36px;
-} */
 
 .contact-label {
   height: 100px;
@@ -52,9 +46,8 @@ textarea {
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
+/* Submit Button */
 input[type='submit'] {
-  /* background-color: #04aa6d; */
   background-color: #606462;
   color: white;
   padding: 12px 20px;
@@ -63,13 +56,12 @@ input[type='submit'] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* Submit button: hover action */
 input[type='submit']:hover {
-  /* background-color: #45a049; */
   background-color: #00735c;
 }
 
-/* Add a background color and some padding around the form */
+/* form background */
 .container {
   border-radius: 5px; /* form background radius*/
   padding: 80px 100px 125px; /*form padding*/
@@ -78,8 +70,6 @@ input[type='submit']:hover {
 /* Tablet and up */
 @media (min-width: 768px) {
   .contact-us {
-    /* font-size: 24px; */
-    /* text-align: left; */
   }
   .container {
     border-radius: 5px; /* form background radius*/
