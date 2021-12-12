@@ -30,14 +30,73 @@ body {
   font-size: 24px;
 }
 
+.contact-us-header {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Contact US Form */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type='text'],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* fields padding */
+  border: 1px solid #ccc; /* fields border */
+  border-radius: 4px; /* Fields Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* fields top margin */
+  margin-bottom: 16px; /* fields Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type='submit'] {
+  /* background-color: #04aa6d; */
+  background-color: #606462;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type='submit']:hover {
+  /* background-color: #45a049; */
+  background-color: #00735c;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px; /* form background radius*/
+  padding: 80px 100px 125px; /*form padding*/
+}
+
 /* Tablet and up */
 @media (min-width: 768px) {
   .contact-us {
     /* font-size: 24px; */
     /* text-align: left; */
   }
+  .container {
+    border-radius: 5px; /* form background radius*/
+    padding: 80px 250px 100px; /*form padding*/
+  }
+  .contact-us-header {
+    font-size: 24px;
+  }
 }
 
 /* Desktop and up */
 @media (min-width: 1440px) {
+  .container {
+    border-radius: 5px; /* form background radius*/
+    padding: 80px 300px 100px; /*form padding*/
+  }
+  .contact-us-header {
+    font-size: 32px;
+  }
 }

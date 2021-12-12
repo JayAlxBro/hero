@@ -33,10 +33,40 @@
     <div class="contact-us">
         <h1 class="contact-label">Contact Us</h1>
 
-        <h2>We would love to hear from you. </h2>
-        <p>Please use the form below and we'll forward to the right team member to get your question answered.</p>
-        <p>Thank you for reaching out to us. We value your input.</p>
     </div>
+
+    <div class="contact-us-header">
+         <h2>We would love to hear from you. </h2>
+         <p>Please use the form below and we'll forward to the right team member to get your question answered.</p>
+         <p>Thank you for reaching out to us. We value your input.</p>
+    </div>
+
+    <!-- Contact US form -->
+    <div class="container">
+
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your Full Name">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your Email Address">
+
+        <label for="inquiry">Inquiry Type</label>
+        <select id="inquiry" name="inquiry">
+            <option value="empty-inquiry">--</option>
+            <option value="suggestion">Suggestion</option>
+            <option value="rewards-program">Rewards Program</option>
+            <option value="employment">Employment</option>
+            <option value="nutrition-information">Nutrition Information</option>
+            <option value="franchise-information">Franchise Information</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Tell us more..." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+    </div>
+
 
     <!-- footer -->
     <div id="footer">
