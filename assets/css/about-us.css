@@ -51,36 +51,40 @@
   grid-template-columns: 1fr;
 }
 .crust-pizza-heading {
-  padding-top: 76px;
-  padding-left: 98px;
+  padding-top: 128px;
+  padding-left: 101px;
   font-size: 24px;
 }
 .crust-pizza-img {
   padding-top: 18px;
-  padding-left: 64px;
+  padding-left: 35px;
+  width: 340px;
+  height: 215px;
 }
 .crust-pizza-body {
-  width: 365px;
-  padding-top: 24px;
-  padding-left: 31px;
+  padding-top: 12px;
+  padding-left: 44px;
   text-align: center;
   font-size: 24px;
+  width: 331px;
 }
 .shabu-heading {
-  padding-top: 117px;
-  padding-left: 113px;
+  padding-top: 70px;
+  padding-left: 102px;
   font-size: 24px;
 }
 .shabu-img {
   padding-top: 18px;
-  padding-left: 77px;
+  padding-left: 35px;
+  width: 340px;
+  height: 215px;
 }
 .shabu-body {
-  width: 369px;
-  padding-top: 24px;
-  padding-left: 30px;
+  padding-top: 12px;
+  padding-left: 40px;
   text-align: center;
   font-size: 24px;
+  width: 331px;
 }
 
 /* Tablet and up */
@@ -116,26 +120,30 @@
     grid-template-columns: 2fr 3fr;
   }
   .crust-pizza-heading {
-    padding-top: 130px;
-    padding-left: 74px;
+    padding-top: 146px;
+    padding-left: 86px;
   }
   .crust-pizza-img {
     padding-top: 18px;
-    padding-left: 41px;
+    padding-left: 28px;
+    width: 340px;
+    height: 215px;
   }
   .crust-pizza-body {
-    padding-top: 15px;
-    padding-left: 8px;
-    width: 365px;
+    padding-top: 12px;
+    padding-left: 33px;
+    width: 331px;
     text-align: center;
   }
   .shabu-heading {
-    padding-top: 130px;
-    padding-left: 86px;
+    padding-top: 146px;
+    padding-left: 155px;
   }
   .shabu-img {
     padding-top: 18px;
-    padding-left: 53px;
+    padding-left: 32px;
+    width: 340px;
+    height: 215px;
   }
   .shabu-body {
     padding-top: 15px;
@@ -179,17 +187,19 @@
     grid-template-columns: 2fr 3fr;
   }
   .crust-pizza-heading {
-    padding-top: 62px;
-    padding-left: 219px;
+    padding-top: 44px;
+    padding-left: 212px;
     font-size: 36px;
   }
   .crust-pizza-img {
-    padding-top: 21px;
-    padding-left: 241px;
+    padding-top: 40px;
+    padding-left: 66px;
+    width: 629px;
+    height: 375px;
   }
   .crust-pizza-body {
-    padding-top: 23px;
-    padding-left: 82px;
+    padding-top: 19px;
+    padding-left: 75px;
     width: 611px;
     font-size: 36px;
   }
@@ -199,12 +209,14 @@
     font-size: 36px;
   }
   .shabu-img {
-    padding-top: 21px;
-    padding-left: 204px;
+    padding-top: 40px;
+    padding-left: 57px;
+    width: 629px;
+    height: 375px;
   }
   .shabu-body {
-    padding-top: 23px;
-    padding-left: 34px;
+    padding-top: 19px;
+    padding-left: 75px;
     width: 611px;
     font-size: 36px;
   }
