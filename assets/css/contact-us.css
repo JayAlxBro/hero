@@ -1,6 +1,6 @@
 /* Phone */
 .main {
-  height: auto;
+  /* height: auto; */
   display: grid;
   grid-template-columns: 1fr;
   place-items: left;
@@ -65,9 +65,7 @@ input[type='submit']:hover {
 
 /* Tablet and up */
 @media (min-width: 768px) {
-  .contact-us {
-  }
-  /* form background */
+   /* form background */
   .contact-container {
     border-radius: 5px;
     padding: 80px 250px 100px;
