@@ -241,17 +241,70 @@
 
 /*Order Page Menu Items*/
 
+.opener {
+  font-size: 40px;
+  text-align: center;
+}
+/* Phone */
+.main {
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  place-items: left;
+}
+
+.body {
+  font-family: 'Ruluko', sans-serif;
+  font-size: 24px;
+}
+
+/* ORDER Items */
+.order-section-title {
+  background: #00493a;
+  color: #fff;
+}
+
 .order-items {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 20px;
-  margin: 30px;
+
 }
 
 .order-item {
   display: grid;
   grid-template-columns: 2fr 3fr;
-  row-gap: 20px;
+   row-gap: 20px;
+margin: 30px;
+
+}
+
+
+/* Tablet and up */
+  .order-items {
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+
+.order-item {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+   row-gap: 20px
+
+
+}
+
+
+/* Desktop and up */
+@media (min-width: 1440px) {
+}
+
+
+.cart {
+  justify-content: center;
+  font-size: 30px;
+  color: #000;
+  background-color: #9db9ab8c;
 }
 
 /*Cart CSS*/
@@ -292,12 +345,12 @@ article {
   grid-template-rows: 100px 100px;
 }
 
-.order {
+/* .order {
   justify-content: center;
   font-size: 30px;
   color: #000;
   background-color: #9db9ab8c;
-}
+} */
 
 /*Confirmation Page CSS*/
 
