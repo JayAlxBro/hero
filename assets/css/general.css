@@ -1,0 +1,13 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ruluko', sans-serif;
+}
+
+.display-1 {
+  font-size: 48px;
+}

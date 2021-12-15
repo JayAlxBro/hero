@@ -11,7 +11,6 @@
 }
 
 .body {
-  font-family: 'Ruluko', sans-serif;
   font-size: 24px;
 }
 
@@ -31,30 +30,23 @@
 .order-item {
   display: grid;
   grid-template-columns: 2fr 3fr;
-   row-gap: 20px
-
+  row-gap: 20px;
 }
 
-
 /* Tablet and up */
-  .order-items {
-    grid-template-columns: 1fr 1fr 1fr;
-
-  }
+.order-items {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 .order-item {
   display: grid;
   grid-template-columns: 2fr 3fr;
-   row-gap: 20px
-
-
+  row-gap: 20px;
 }
-
 
 /* Desktop and up */
 @media (min-width: 1440px) {
 }
-
 
 .cart {
   justify-content: center;

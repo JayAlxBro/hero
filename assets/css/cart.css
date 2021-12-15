@@ -6,10 +6,6 @@ article {
   padding: 30px;
 }
 
-body {
-  font-family: 'Ruluko', sans-serif;
-}
-
 .opener {
   font-size: 30px;
   grid-column: 2/-1;
