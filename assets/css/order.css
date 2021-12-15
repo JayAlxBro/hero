@@ -25,19 +25,9 @@
   grid-template-columns: 1fr;
 }
 
-.pizza {
-  display: grid;
-  /* grid-template-columns: 1fr; */
-  text-align: right;
-}
-.pizza-info {
-  font-size: 20px;
-  padding: 20px;
-}
-
 .order-item {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 2fr 2fr ;
 }
 
 .order-info {
@@ -49,7 +39,6 @@
   max-width: 100%;
   border-radius: 50%;
   object-fit: cover;
-  width: 250px;
   height: 250px;
   padding: 10px;
 }
