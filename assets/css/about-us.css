@@ -120,36 +120,32 @@
     display: grid;
     grid-template-columns: 2fr 3fr;
   }
-  .crust-pizza-img {
-    padding-left: 41px;
-  }
-
   .crust-pizza-heading {
     padding-top: 130px;
-    padding-left: 75px;
-    padding-bottom: 18px;
+    padding-left: 74px;
+  }
+  .crust-pizza-img {
+    padding-top: 18px;
+    padding-left: 41px;
   }
   .crust-pizza-body {
-    width: 259px;
-    /* height: 140px; */
-    display: block;
-    padding-left: 75px;
+    padding-top: 15px;
+    padding-left: 8px;
+    width: 365px;
     text-align: center;
-  }
-  .shabu-img {
-    padding-left: 75px;
   }
   .shabu-heading {
     padding-top: 130px;
-    padding-left: 107px;
-    padding-bottom: 28px;
+    padding-left: 86px;
   }
-
+  .shabu-img {
+    padding-top: 18px;
+    padding-left: 53px;
+  }
   .shabu-body {
-    padding-top: 27px;
-    padding-left: 50px;
-    width: 345px;
-    /* height: 168px; */
+    padding-top: 15px;
+    padding-left: 5px;
+    width: 369px;
     text-align: center;
   }
 }
