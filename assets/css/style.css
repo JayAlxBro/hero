@@ -256,49 +256,66 @@
 
 /*Cart CSS*/
 
-article {
-  height: auto;
-  display: grid;
-
-  margin: 0;
-  padding: 30px;
+/* Fields */
+input[type='text'],
+select,
+textarea {
+  columns: 1fr 3fr;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-.opener {
-  font-family: 'Ruluko', sans-serif;
-  font-size: 20px;
-  grid-column: 2/-1;
+
+/* Order Button */
+.order-button {
+  background-color: #00735c;
+  border-radius: 15px;
+  border: 1px solid #00735c;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  text-align: center;
 }
 
-.summary {
-  font-family: 'Ruluko', sans-serif;
-  font-size: 25px;
-  grid-column: 2/-1;
+/* Submit button: hover action */
+.order-button:hover {
+  background-color: #00735c;
 }
 
-.personal {
-  grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-template-rows: 100px 100px;
-}
-.address {
-  grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-template-rows: 100px 100px;
-}
-.card {
-  grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-template-rows: 100px 100px;
+/* form background */
+cart-main{
+  border-radius: 5px;
+  padding: 80px 100px 125px;
 }
 
-.order {
-  justify-content: center;
-  font-size: 30px;
-  color: #000;
-  background-color: #9db9ab8c;
+/* Tablet and up */
+@media (min-width: 768px) {
+
+  /* form background */
+  cart-main {
+    border-radius: 5px;
+    padding: 80px 250px 100px;
+  }
+
 }
 
+/* Desktop and up */
+@media (min-width: 1440px) {
+  /* form background */
+  cart-main{
+    border-radius: 5px;
+    padding: 80px 300px 100px;
+  }
+
+}
 /*Confirmation Page CSS*/
 
 p {
