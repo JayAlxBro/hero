@@ -1,9 +1,14 @@
 /* Homepage Slogan CSS */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .slogans {
   display: grid;
   grid-template-columns: 1fr;
-  padding-top: 35px;
+  padding-top: 95px;
 }
 
 .slogan-name {
@@ -13,7 +18,8 @@
 }
 
 .slogans img {
-  width: 50%;
+  width: 80%;
+  height: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
