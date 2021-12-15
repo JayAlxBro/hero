@@ -1,6 +1,5 @@
 /* Phone */
 .main {
-  height: auto;
   display: grid;
   grid-template-columns: 1fr;
   place-items: left;
@@ -8,10 +7,11 @@
 }
 
 .contact-label {
-  height: 100px;
+  /* height: 100px; */
   background-image: linear-gradient(to right, #00493a, #00735c);
   text-align: center;
   padding-top: 25px;
+  padding-bottom: 25px;
   color: white;
 }
 
@@ -58,17 +58,15 @@ input[type='submit']:hover {
 }
 
 /* form background */
-.container {
+.contact-container {
   border-radius: 5px;
   padding: 80px 100px 125px;
 }
 
 /* Tablet and up */
 @media (min-width: 768px) {
-  .contact-us {
-  }
-  /* form background */
-  .container {
+   /* form background */
+  .contact-container {
     border-radius: 5px;
     padding: 80px 250px 100px;
   }
@@ -80,7 +78,7 @@ input[type='submit']:hover {
 /* Desktop and up */
 @media (min-width: 1440px) {
   /* form background */
-  .container {
+  .contact-container {
     border-radius: 5px;
     padding: 80px 300px 100px;
   }

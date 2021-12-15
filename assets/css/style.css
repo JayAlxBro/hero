@@ -1,50 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* Navigation Menu CSS */
-
-#navbar ul {
-  list-style: none;
-  padding: 10px;
-  text-align: center;
-}
-
-#navbar li {
-  display: inline;
-  padding: 20px;
-}
-
-#navbar a {
-  color: #000000;
-  text-decoration: none;
-  font-size: 12px;
-  font-family: 'Ruluko', sans-serif;
-}
-
-#navbar .title {
-  font-family: 'Ruluko', sans-serif;
-  font-size: 48px;
-  color: #ae2411;
-}
-
-.navbar-quote {
-  font-family: 'Ruluko', sans-serif;
-  padding: 70px 0;
-  text-align: center;
-  font-size: 25px;
-  padding: 0px;
-}
-
-.main-quote {
-  font-family: 'Ruluko', sans-serif;
-  font-size: 18px;
-  padding: 50px 40px;
-}
-
-/* Homepage Slogan CSS */
-
+/* -----------------------Home------------------------- */
 .slogans {
   display: grid;
   grid-template-columns: 1fr;
@@ -65,112 +19,25 @@
   padding-bottom: 40px;
 }
 
-/*About us Heading Title */
-
-.main {
-  height: auto;
-  display: grid;
-  place-items: left;
+/* Tablet and up */
+@media (min-width: 768px) {
+  .slogans {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* Desktop and up */
+@media (min-width: 1440px) {
+  .slogans {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-.about-title {
-  height: 100px;
-  background-image: linear-gradient(to right, #00493a, #00735c);
-  text-align: center;
-  color: white;
-  font-size: 48px;
-  text-align: left;
-  padding-top: 50px;
-  padding-left: 37px;
-}
-
-.hero-about-heading {
-  padding-top: 70px;
-  padding-left: 41px;
-  font-size: 24px;
-}
-
-.hero-about-heading-content {
-  padding-top: 5px;
-  padding-left: 41px;
-  padding-right: 19px;
-  font-size: 24px;
-}
-
-.hero-about-history {
-  padding-top: 41px;
-  padding-left: 37px;
-  padding-right: 19px;
-  font-size: 24px;
-}
-
-.hero-about-history-content {
-  padding-top: 5px;
-  padding-left: 41px;
-  padding-right: 19px;
-  font-size: 24px;
-}
-
-.hero-about-new-para {
-  padding-top: 24px;
-  padding-left: 41px;
-  padding-right: 19px;
-  font-size: 24px;
-}
-
-/* About Us Images */
-.about-items {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.crust-pizza-img {
-  padding-left: 55px;
-}
-
-.crust-pizza-heading {
-  padding-top: 75px;
-  padding-left: 89px;
-  padding-bottom: 18px;
-  font-size: 24px;
-}
-
-.crust-pizza-body {
-  width: 259px;
-  height: 140px;
-  padding-top: 35px;
-  padding-left: 83px;
-  text-align: center;
-  font-size: 24px;
-}
-
-.shabu-img {
-  padding-left: 67px;
-}
-
-.shabu-heading {
-  padding-top: 86px;
-  padding-left: 99px;
-  padding-bottom: 28px;
-  font-size: 24px;
-}
-
-.shabu-body {
-  padding-top: 27px;
-  padding-left: 42px;
-  width: 345px;
-  height: 168px;
-  text-align: center;
-  font-size: 24px;
-}
-
-/*Menu Page Menu Items CSS*/
-
+/* -----------------------Menu Page----------------------- */
 .menu-section-title {
   background-color: #00493a;
   color: #ffffff;
-  font-family: 'Ruluko', sans-serif;
-  font-size: 40px;
+  font-size: 48px;
   padding: 10px;
 }
 
@@ -185,8 +52,7 @@
 }
 
 .menu-item-desc {
-  font-family: 'Ruluko', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .menu-item img {
@@ -198,24 +64,22 @@
 }
 
 .smoothie-desc {
-  font-family: 'Ruluko', sans-serif;
-  font-size: 30px;
+  font-size: 36px;
   padding-top: 40px;
 }
 
 .smoothie-list {
   text-align: center;
-  font-family: 'Ruluko', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .smoothie-list p {
-  font-family: 'Ruluko', sans-serif;
-  font-size: 22px;
+  font: ;
+  font-size: 27px;
   padding-bottom: 30px;
 }
 
-/*Menu Page Link/Button*/
+/*Menu page link made into button*/
 
 .button {
   background-color: white;
@@ -225,8 +89,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: 'Ruluko', sans-serif;
-  font-size: 20px;
+  font-size: 36px;
 }
 
 .button:hover {
@@ -239,7 +102,138 @@
   padding: 40px;
 }
 
-/*Order Page Menu Items*/
+@media (min-width: 768px) {
+  .menu-items {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .menu-item img {
+    max-width: 100%;
+    border-radius: 15%;
+    width: 70%;
+    height: ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .menu-item p {
+    font-size: 25px;
+  }
+
+  .smoothie-desc {
+    font-size: px;
+    padding-top: 20px;
+  }
+
+  .smoothie-list {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .smoothie-list p {
+    font: ;
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .menu-items {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* -------------------------Navigation--------------------------- */
+
+#navbar ul {
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+}
+
+#navbar li {
+  display: inline;
+  padding: 20px;
+}
+
+#navbar a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#navbar .title {
+  font-size: 48px;
+  color: #ae2411;
+}
+
+.navbar-quote {
+  padding: 70px 0;
+  text-align: center;
+  font-size: 30px;
+  padding: 0px;
+}
+
+.main-quote {
+  font-size: 18px;
+  padding: 50px 40px;
+}
+
+/* Tablet and up*/
+@media (min-width: 768px) {
+  #navbar ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #navbar li {
+    display: inline;
+    padding: 10px;
+  }
+
+  #navbar a {
+    font-size: 36px;
+  }
+
+  #navbar .title {
+    font-size: 72px;
+  }
+
+  .main-quote {
+    font-size: 25x;
+    padding: 60px;
+    text-align: center;
+  }
+}
+
+/* Desktop and up*/
+@media (min-width: 1440px) {
+}
+
+/* --------------------------------Order Page------------------------------ */
+/* Phone */
+.opener {
+  font-size: 40px;
+  text-align: center;
+}
+
+.main {
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: left;
+}
+
+.body {
+  font-family: 'Ruluko', sans-serif;
+  font-size: 24px;
+}
+
+/* Menu Items */
+.order-section-title {
+  background: #00493a;
+  color: #fff;
+}
 
 .order-items {
   display: grid;
@@ -254,85 +248,76 @@
   row-gap: 20px;
 }
 
-/*Cart CSS*/
-
-/* Fields */
-input[type='text'],
-select,
-textarea {
-  columns: 1fr 3fr;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-
-/* Order Button */
-.order-button {
-  background-color: #00735c;
-  border-radius: 15px;
-  border: 1px solid #00735c;
-  display: inline-block;
-  color: #ffffff;
-  font-size: 17px;
-  padding: 16px 31px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #2f6627;
-  text-align: center;
-}
-
-/* Submit button: hover action */
-.order-button:hover {
-  background-color: #00735c;
-}
-
-/* form background */
-cart-main{
-  border-radius: 5px;
-  padding: 80px 100px 125px;
-}
-
 /* Tablet and up */
 @media (min-width: 768px) {
-
-  /* form background */
-  cart-main {
-    border-radius: 5px;
-    padding: 80px 250px 100px;
+  .order-items {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .order-item {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    row-gap: 20px;
+  }
 }
 
 /* Desktop and up */
 @media (min-width: 1440px) {
-  /* form background */
-  cart-main{
-    border-radius: 5px;
-    padding: 80px 300px 100px;
+  .cart {
+    justify-content: center;
+    font-size: 30px;
+    color: #000;
+    background-color: #9db9ab8c;
   }
-
-}
-/*Confirmation Page CSS*/
-
-p {
-  font-size: 26px;
-  padding: 60px;
 }
 
-/*Contact us Page CSS*/
+/* -----------------------------------footer---------------------------- */
 
-.main {
-  height: auto;
+.footer-body {
   display: grid;
-  grid-template-columns: 1fr;
-  place-items: left;
-  background-color: #edf0ee;
+  grid-template-rows: auto 1fr auto;
 }
 
+#footer {
+  bottom: 0;
+  background-color: #00493a;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+/* -----------------------------Contact Us----------------------------- */
+/* Phone */
 .contact-label {
   height: 100px;
   background-image: linear-gradient(to right, #00493a, #00735c);
@@ -384,175 +369,17 @@ input[type='submit']:hover {
 }
 
 /* form background */
-.container {
+.contact-container {
   border-radius: 5px;
   padding: 80px 100px 125px;
 }
 
-/* Footer */
-
-#footer {
-  bottom: 0;
-  background-color: #00493a;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55acee;
-  color: white;
-}
-
-/* Tablet and up*/
-
-/*Navigation Menu CSS*/
-
+/* Tablet and up */
 @media (min-width: 768px) {
-  #navbar a {
-    font-size: 20px;
-  }
-
-  #navbar .title {
-    font-size: 50px;
-  }
-
-  .main-quote {
-    font-size: 25x;
-    padding: 60px;
-    text-align: center;
-  }
-
-  /*Homepage Slogan CSS*/
-
-  .slogans {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .hero-about-heading {
-    padding-top: 37px;
-    padding-left: 37px;
-    padding-right: 18px;
-  }
-
-  .hero-about-heading-content {
-    padding-top: 8.7px;
-    padding-left: 37px;
-    padding-right: 18px;
-  }
-
-  .hero-about-history {
-    padding-top: 37px;
-    padding-left: 37px;
-    padding-right: 19px;
-  }
-
-  .hero-about-history-content {
-    padding-top: 5px;
-    padding-left: 37px;
-    padding-right: 18px;
-  }
-
-  .hero-about-new-para {
-    padding-top: 37px;
-    padding-left: 37px;
-    padding-right: 19px;
-  }
-
-  /* About Items Images*/
-  .about-items {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-  }
-
-  .crust-pizza-img {
-    padding-left: 41px;
-  }
-
-  .crust-pizza-heading {
-    padding-top: 130px;
-    padding-left: 75px;
-    padding-bottom: 18px;
-  }
-
-  .crust-pizza-body {
-    width: 259px;
-    height: 140px;
-    padding-left: 75px;
-    text-align: center;
-  }
-
-  .shabu-img {
-    padding-left: 75px;
-  }
-
-  .shabu-heading {
-    padding-top: 130px;
-    padding-left: 107px;
-    padding-bottom: 28px;
-  }
-
-  .shabu-body {
-    padding-top: 27px;
-    width: 345px;
-    height: 168px;
-    text-align: center;
-  }
-
-  /*Menu Page Menu Items*/
-
-  .smoothie-list {
-    font-size: 24px;
-  }
-
-  .menu-items {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .menu-item img {
-    max-width: 100%;
-    border-radius: 15%;
-    width: 100%;
-    height: auto;
-    padding-top: 20px;
-  }
-
-  .menu-item p {
-    font-size: 24px;
-  }
-
-  /*Contact Us Page*/
-
   .contact-us {
   }
   /* form background */
-  .container {
+  .contact-container {
     border-radius: 5px;
     padding: 80px 250px 100px;
   }
@@ -561,67 +388,254 @@ input[type='submit']:hover {
   }
 }
 
-/* Desktop and up*/
+/* Desktop and up */
 @media (min-width: 1440px) {
-  /*Menu Page Menu Items*/
-  .menu-items {
-    grid-template-columns: 1fr 1fr 1fr;
+  /* form background */
+  .contact-container {
+    border-radius: 5px;
+    padding: 80px 300px 100px;
   }
-
-  /*Home Page Slogans*/
-  .slogans {
-    grid-template-columns: repeat(3, 1fr);
+  .contact-us-header {
+    font-size: 32px;
   }
+}
 
-  /*About us Heading Title*/
+/* ---------------------------------Cart----------------------------------- */
 
+article {
+  height: auto;
+  display: grid;
+
+  margin: 0;
+  padding: 30px;
+}
+
+body {
+  font-family: 'Ruluko', sans-serif;
+}
+
+.opener {
+  font-size: 30px;
+  grid-column: 2/-1;
+}
+
+.summary {
+  font-size: 25px;
+  grid-column: 2/-1;
+}
+
+.personal {
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: 100px 100px;
+}
+.address {
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: 100px 100px;
+}
+.card {
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: 100px 100px;
+}
+
+.order {
+  justify-content: center;
+  font-size: 30px;
+  color: #000;
+  background-color: #9db9ab8c;
+}
+
+/* ----------------------------about us---------------------------- */
+/* Phone */
+.about-title {
+  height: 100px;
+  background-image: linear-gradient(to right, #00493a, #00735c);
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 37px;
+}
+
+.hero-about-heading {
+  padding-top: 70px;
+  padding-left: 41px;
+  font-size: 24px;
+}
+.hero-about-heading-content {
+  padding-top: 5px;
+  padding-left: 41px;
+  padding-right: 19px;
+  font-size: 24px;
+}
+.hero-about-history {
+  padding-top: 41px;
+  padding-left: 37px;
+  padding-right: 19px;
+  font-size: 24px;
+}
+.hero-about-history-content {
+  padding-top: 5px;
+  padding-left: 41px;
+  padding-right: 19px;
+  font-size: 24px;
+}
+.hero-about-new-para {
+  padding-top: 24px;
+  padding-left: 41px;
+  padding-right: 19px;
+  font-size: 24px;
+}
+
+/* About Items */
+.about-items {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.crust-pizza-img {
+  padding-left: 55px;
+}
+
+.crust-pizza-heading {
+  padding-top: 75px;
+  padding-left: 89px;
+  padding-bottom: 18px;
+  font-size: 24px;
+}
+.crust-pizza-body {
+  width: 259px;
+  height: 140px;
+  padding-top: 35px;
+  padding-left: 83px;
+  text-align: center;
+  font-size: 24px;
+}
+.shabu-img {
+  padding-left: 67px;
+}
+.shabu-heading {
+  padding-top: 86px;
+  padding-left: 99px;
+  padding-bottom: 28px;
+  font-size: 24px;
+}
+
+.shabu-body {
+  padding-top: 27px;
+  padding-left: 42px;
+  width: 345px;
+  height: 168px;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  .hero-about-heading {
+    padding-top: 37px;
+    padding-left: 37px;
+    padding-right: 18px;
+  }
+  .hero-about-heading-content {
+    padding-top: 8.7px;
+    padding-left: 37px;
+    padding-right: 18px;
+  }
+  .hero-about-history {
+    padding-top: 37px;
+    padding-left: 37px;
+    padding-right: 19px;
+  }
+  .hero-about-history-content {
+    padding-top: 5px;
+    padding-left: 37px;
+    padding-right: 18px;
+  }
+  .hero-about-new-para {
+    padding-top: 37px;
+    padding-left: 37px;
+    padding-right: 19px;
+  }
+  /* About Items */
+  .about-items {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+  .crust-pizza-img {
+    padding-left: 41px;
+  }
+  .crust-pizza-heading {
+    padding-top: 130px;
+    padding-left: 75px;
+    padding-bottom: 18px;
+  }
+  .crust-pizza-body {
+    width: 259px;
+    height: 140px;
+    padding-left: 75px;
+    text-align: center;
+  }
+  .shabu-img {
+    padding-left: 75px;
+  }
+  .shabu-heading {
+    padding-top: 130px;
+    padding-left: 107px;
+    padding-bottom: 28px;
+  }
+  .shabu-body {
+    padding-top: 27px;
+    width: 345px;
+    height: 168px;
+    text-align: center;
+  }
+}
+
+/* Desktop and up */
+@media (min-width: 1440px) {
   .hero-about-heading {
     padding-top: 37px;
     padding-left: 37px;
     font-size: 36px;
   }
-
   .hero-about-heading-content {
     padding-top: 14.5px;
     padding-left: 31px;
     font-size: 36px;
   }
-
   .hero-about-history {
     padding-top: 80px;
     padding-left: 31px;
     font-size: 36px;
   }
-
   .hero-about-history-content {
     padding-top: 13px;
     padding-left: 31px;
     font-size: 36px;
   }
-
   .hero-about-new-para {
     padding-top: 63px;
     padding-left: 31px;
     font-size: 36px;
   }
 
-  /* About Us Images*/
+  /* About Items */
   .about-items {
     display: grid;
     grid-template-columns: 2fr 3fr;
   }
-
   .crust-pizza-img {
     padding-top: 21px;
     padding-left: 241px;
   }
-
   .crust-pizza-heading {
     padding-top: 62px;
     padding-left: 219px;
     font-size: 36px;
   }
-
   .crust-pizza-body {
     padding-top: 21px;
     padding-left: 184px;
@@ -629,34 +643,20 @@ input[type='submit']:hover {
     height: 210px;
     font-size: 36px;
   }
-
   .shabu-img {
     padding-top: 21px;
     padding-left: 204px;
   }
-
   .shabu-heading {
     padding-top: 62px;
     padding-left: 185px;
     font-size: 36px;
   }
-
   .shabu-body {
     padding-top: 21px;
     padding-left: 127px;
     width: 482px;
     height: 252px;
     font-size: 36px;
-  }
-
-  /*Contact us Page*/
-
-  .container {
-    border-radius: 5px;
-    padding: 80px 300px 100px;
-  }
-
-  .contact-us-header {
-    font-size: 32px;
   }
 }
