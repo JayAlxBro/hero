@@ -58,7 +58,7 @@ input[type='submit']:hover {
 }
 
 /* form background */
-.container {
+.contact-container {
   border-radius: 5px;
   padding: 80px 100px 125px;
 }
@@ -68,7 +68,7 @@ input[type='submit']:hover {
   .contact-us {
   }
   /* form background */
-  .container {
+  .contact-container {
     border-radius: 5px;
     padding: 80px 250px 100px;
   }
@@ -80,7 +80,7 @@ input[type='submit']:hover {
 /* Desktop and up */
 @media (min-width: 1440px) {
   /* form background */
-  .container {
+  .contact-container {
     border-radius: 5px;
     padding: 80px 300px 100px;
   }
