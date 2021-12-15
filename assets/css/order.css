@@ -36,11 +36,14 @@
 }
 
 .order-item img {
+
   max-width: 100%;
+  width: 70%;
   border-radius: 50%;
   object-fit: cover;
   height: 250px;
   padding: 10px;
+
 }
 
 .price {
