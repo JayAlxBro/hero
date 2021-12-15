@@ -13,18 +13,20 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Local CSS -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/navigation.css">
+    <link rel="stylesheet" href="../assets/css/order.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
 
 </head>
 <body>
     <header>
         <nav id="navbar">
             <ul>
-               <li><a href="../about-us/">About</a></li>
-               <li><a href="../menu/">Menu</a></li>
-               <li><a class="title" href="/">Hero</a></li>
-               <li><a href="../order/">Order</a></li>
-               <li><a href="../contact-us/">Contact</a></li>
+                <li><a href="../about-us/">About</a></li>
+                <li><a href="../menu/">Menu</a></li>
+                <li><a class="title" href="/">Hero</a></li>
+                <li><a href="../order/">Order</a></li>
+                <li><a href="../contact-us/">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -52,7 +54,7 @@
 
                 <div class="order-item">
 
-                    <img src="../assets/img/avacadoToast.jpg" alt="avacado toast with egg">
+                    <img src="../assets/img/menu/avocado-toast.png" alt="avacado toast with egg">
 
                     <div class="order-info">
 
@@ -80,7 +82,7 @@
 
 
                 <div class="order-item">
-                    <img src="../assets/img/omelet.png" alt="Egg White Omelet">
+                    <img src="../assets/img/menu/omelet.png" alt="Egg White Omelet">
 
                     <div class="order-info">
 
@@ -130,7 +132,7 @@
 
                 <div class="order-item">
 
-                    <img src="../assets/img/bellPepperTacos.png" alt="Bell Pepper Tacos">
+                    <img src="../assets/img/menu/bell-pepper-tacos.png" alt="Bell Pepper Tacos">
 
                     <div class="order-info">
 
@@ -153,7 +155,7 @@
 
                 <div class="order-item">
 
-                    <img src="../assets/img/impossibleBurger.png" alt="That's Impossible">
+                    <img src="../assets/img/menu/impossible-burger.png" alt="That's Impossible">
 
 
 
@@ -191,7 +193,7 @@
 
 
                     <div class="order-item">
-                        <img src="../assets/img/pizza.png" alt="Cauliflower Crust Pizza">
+                        <img src="../assets/img/menu/pizza.png" alt="Cauliflower Crust Pizza">
 
                         <div class="order-info">
                             <label for="pizza"> Califlower Crust Pizza </label>
@@ -215,14 +217,16 @@
                         </div>
                     </div>
 
-</div>
                 </div>
+            </div>
 
-                <h2 class="order-section-title">Salads</h2>
+            <h2 class="order-section-title">Salads</h2>
+            <div class="order-items">
+
 
                 <div class="order-item">
 
-                    <img src="../assets/img/fruit-salad.png" alt="Fruit and Greens">
+                    <img src="../assets/img/menu/fruit-salad.png" alt="Fruit and Greens">
                     <div class="order-info">
                         <label for="fruit"> Fruit & Greens </label>
                         <input type="number" id="fruit" name="fruit" min="0" max="100">
@@ -233,7 +237,8 @@
 
                 <div class="order-item">
 
-                    <img src="../assets/img/order-images/caesar.jpg" alt="Caesar Salad">
+                    <img src="../assets/img/menu/caesar-salad.png" alt="Caesar Salad">
+
                     <div class="order-info">
 
                         <label for="caesar"> Caesar Salad </label>
@@ -242,38 +247,35 @@
                     </div>
                 </div>
 
+            </div>
+
+            <h2 class="order-section-title">Smoothies</h2>
+
+            <img src="../assets/img/menu/smoothies.png" alt="smoothies">
 
 
-                <h2 class="order-section-title">Smoothies</h2>
-
-                <img src="../assets/img/smoothies.jpg" alt="smoothies">
+            <div class="order-smoothies">
                 <h3>$2.95</h3>
-
-                <div class="order-item">
-
-                    <label for="green"> Green Machine </label>
-                    <input type="number" id="green" name="green" min="0" max="100">
+                <label for="green"> Green Machine </label>
+                <input type="number" id="green" name="green" min="0" max="100">
 
 
-                </div>
 
-                <div class="order-item">
 
-                    <label for="red"> Rosy Red </label>
-                    <input type="number" id="red" name="red" min="0" max="100">
-                </div>
+                <label for="red"> Rosy Red </label>
+                <input type="number" id="red" name="red" min="0" max="100">
 
-                <div class="order-item">
 
-                    <label for="orange"> Orange Power </label>
-                    <input type="number" id="orange" name="orange" min="0" max="100">
-                </div>
 
+
+                <label for="orange"> Orange Power </label>
+                <input type="number" id="orange" name="orange" min="0" max="100">
+
+            </div>
         </section>
-        <form action="../cart/index.html" method="get">
-
-            <input class="cart" type="submit" value="Add to Cart">
-        </form>
+        <div class="button-container">
+            <a class="button" href="../cart/index.html">Add to Cart</a>
+        </div>
     </main>
     <!-- footer -->
     <div id="footer">
