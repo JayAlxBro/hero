@@ -34,9 +34,9 @@
 
         <!-- Order paragraph  -->
 
-        <p class="opener">You’re one step closer to having a healthy meal, fast.</p>
+        <p class="opener">You’re one step closer to having a healthy meal, fast. Just select the items and add-ions you would like.</p>
 
-        <p class="opener">Just select the items and add-ions you would like. </p>
+
 
 
 
@@ -58,8 +58,8 @@
 
                     <div class="order-info">
 
-                        <label for="avacado">Avacado Toast</label>
-                        <input type="number" id="avacado" name="avacado" min="0" max="100">
+                        <label class="menu-title" for="avacado">Avacado Toast</label>
+                        <input type="number" id="avacado" name="avacado" min="0" max="100" placeholder="0">
 
                         <p>$5.95</p>
 
@@ -86,9 +86,8 @@
 
                     <div class="order-info">
 
-                        <label for="order-title">Egg White Omelet</label>
-
-                        <input type="number" id="order-title" name="order-title" min="0" max="100">
+                        <label class="menu-title" for="order-title">Egg White Omelet</label>
+                        <input type="number" id="order-title" name="order-title" min="0" max="100" placeholder="0">
 
 
                         <p>$4.95</p>
@@ -136,8 +135,8 @@
 
                     <div class="order-info">
 
-                        <label for="tacos"> Bell Pepper Tacos</label>
-                        <input type="number" id="tacos" name="tacos" min="0" max="100">
+                        <label class="menu-title" for="tacos"> Bell Pepper Tacos</label>
+                        <input type="number" id="tacos" name="tacos" min="0" max="100" placeholder="0">
 
                         <p>5.95</p>
 
@@ -157,12 +156,10 @@
 
                     <img src="../assets/img/menu/impossible-burger.png" alt="That's Impossible">
 
-
-
                     <div class="order-info">
 
-                        <label for="impossible"> That's Impossible</label>
-                        <input type="number" id="impossible" name="impossible" min="0" max="100">
+                        <label class="menu-title" for="impossible"> That's Impossible</label>
+                        <input type="number" id="impossible" name="impossible" min="0" max="100" placeholder="0">
 
                         <p>5.95</p>
 
@@ -193,11 +190,13 @@
 
 
                     <div class="order-item">
+
                         <img src="../assets/img/menu/pizza.png" alt="Cauliflower Crust Pizza">
 
                         <div class="order-info">
-                            <label for="pizza"> Califlower Crust Pizza </label>
-                            <input type="number" id="pizza" name="pizza" min="0" max="100">
+
+                            <label class="menu-title" for="pizza"> Califlower Crust Pizza </label>
+                            <input type="number" id="pizza" name="pizza" min="0" max="100" placeholder="0">
 
                             <p>7.95</p>
 
@@ -228,8 +227,8 @@
 
                     <img src="../assets/img/menu/fruit-salad.png" alt="Fruit and Greens">
                     <div class="order-info">
-                        <label for="fruit"> Fruit & Greens </label>
-                        <input type="number" id="fruit" name="fruit" min="0" max="100">
+                        <label class="menu-title" for="fruit"> Fruit & Greens </label>
+                        <input type="number" id="fruit" name="fruit" min="0" max="100" placeholder="0">
 
                         <p>$4.95</p>
                     </div>
@@ -241,8 +240,8 @@
 
                     <div class="order-info">
 
-                        <label for="caesar"> Caesar Salad </label>
-                        <input type="number" id="caesar" name="caesar" min="0" max="100">
+                        <label class="menu-title" for="caesar"> Caesar Salad </label>
+                        <input type="number" id="caesar" name="caesar" min="0" max="100" placeholder="0">
                         <p>$4.95</p>
                     </div>
                 </div>
@@ -250,27 +249,28 @@
             </div>
 
             <h2 class="order-section-title">Smoothies</h2>
+            <div class="smoothie">
+                <img src="../assets/img/menu/smoothies.png" alt="smoothies">
 
-            <img src="../assets/img/menu/smoothies.png" alt="smoothies">
+                <h3 class="price">$2.95</h3>
 
+                <div class="order-smoothies">
 
-            <div class="order-smoothies">
-                <h3>$2.95</h3>
-                <label for="green"> Green Machine </label>
-                <input type="number" id="green" name="green" min="0" max="100">
-
-
-
-
-                <label for="red"> Rosy Red </label>
-                <input type="number" id="red" name="red" min="0" max="100">
+                    <label class="menu-title" for="green"> Green Machine </label>
+                    <input type="number" id="green" name="green" min="0" max="100" placeholder="0">
 
 
 
 
-                <label for="orange"> Orange Power </label>
-                <input type="number" id="orange" name="orange" min="0" max="100">
+                    <label class="menu-title" for="red"> Rosy Red </label>
+                    <input type="number" id="red" name="red" min="0" max="100" placeholder="0">
 
+
+
+
+                    <label class="menu-title" for="orange"> Orange Power </label>
+                    <input type="number" id="orange" name="orange" min="0" max="100" placeholder="0">
+                </div>
             </div>
         </section>
         <div class="button-container">
