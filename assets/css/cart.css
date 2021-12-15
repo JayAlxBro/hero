@@ -55,7 +55,7 @@ h3 {
 }
 
 /* Desktop and up */
-@media (min-width: 1440px) {
+@media (min-width: 992px) {
 
   .information {
     border-radius: 5px;

@@ -110,7 +110,7 @@
 }
 
 /* Desktop and up*/
-@media (min-width: 1440px) {
+@media (min-width: 992px) {
   .order-items {
     grid-template-columns: 1fr 1fr 1fr;
   }
