@@ -19,11 +19,10 @@ h3 {
   color: white;
 }
 
-.accepted{
+.accepted {
   text-align: center;
 }
 /* Cart Form */
-
 
 .billing {
   display: grid;
@@ -35,10 +34,8 @@ h3 {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical;
-  text-align: center;
+  
 }
-
 
 .information {
   border-radius: 5px;
@@ -47,7 +44,6 @@ h3 {
 
 /* Tablet and up */
 @media (min-width: 768px) {
-
   .information {
     border-radius: 5px;
     padding: 80px 250px 100px;
@@ -56,7 +52,6 @@ h3 {
 
 /* Desktop and up */
 @media (min-width: 992px) {
-
   .information {
     border-radius: 5px;
     padding: 80px 300px 100px;
