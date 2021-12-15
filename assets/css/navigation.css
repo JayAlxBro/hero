@@ -3,67 +3,67 @@
   padding: 0;
 }
 
-#navbar {
-  background-color: #00493a;
-}
+/* Navigation Menu CSS */
 
 #navbar ul {
   list-style: none;
-  padding: 24px;
+  padding: 10px;
   text-align: center;
 }
 
 #navbar li {
   display: inline;
-  padding: 40px;
+  padding: 20px;
 }
 
 #navbar a {
-  color: #000;
+  color: #000000;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 12px;
+  font-family: 'Ruluko', sans-serif;
 }
 
 #navbar .title {
-  font-size: 36px;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 48px;
+  color: #ae2411;
 }
 
 .navbar-quote {
+  font-family: 'Ruluko', sans-serif;
   padding: 70px 0;
   text-align: center;
-  font-size: 24px;
-  padding-top: 0px;
+  font-size: 25px;
+  padding: 0px;
 }
 
-.main img {
-  width: 100%;
-}
-
-.main-slogan {
-  text-align: center;
-  font-size: 36px;
-}
-
-.slogan-image {
+.main-quote {
+  font-family: 'Ruluko', sans-serif;
+  font-size: 18px;
+  padding: 50px 40px;
 }
 
 /* Tablet and up*/
 @media (min-width: 768px) {
-  #navbar li {
-    padding: 60px;
-  }
-
   #navbar a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 36px;
+    font-size: 20px;
   }
 
   #navbar .title {
-    font-size: 72px;
+    font-size: 50px;
+  }
+
+  .main-quote {
+    font-size: 25x;
+    padding: 60px;
+    text-align: center;
   }
 }
 
 /* Desktop and up*/
 @media (min-width: 1440px) {
+  /*Menu Page Menu Items*/
+  .menu-items {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
