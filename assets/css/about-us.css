@@ -61,16 +61,16 @@
   font-size: 24px;
 }
 .crust-pizza-img {
-  padding-top: 18px;
+  /* padding-top: 18px;
   padding-left: 35px;
   width: 340px;
-  height: 215px;
+  height: 215px; */
 }
 .crust-pizza-body {
   padding-top: 12px;
-  padding-left: 44px;
-  text-align: center;
-  font-size: 24px;
+  /* padding-left: 44px;
+  text-align: center; */
+  /* font-size: 24px; */
   width: 331px;
 }
 .shabu-heading {
@@ -122,22 +122,22 @@
   /* About Items */
   .about-items {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 1fr;
   }
   .crust-pizza-heading {
     padding-top: 146px;
     padding-left: 86px;
   }
   .crust-pizza-img {
-    padding-top: 18px;
+    /* padding-top: 18px;
     padding-left: 28px;
     width: 340px;
-    height: 215px;
+    height: 215px; */
   }
   .crust-pizza-body {
-    padding-top: 12px;
+    /* padding-top: 12px;
     padding-left: 33px;
-    width: 331px;
+    width: 331px; */
     text-align: center;
   }
   .shabu-heading {
@@ -189,23 +189,24 @@
   /* About Items */
   .about-items {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 1fr;
   }
   .crust-pizza-heading {
-    padding-top: 44px;
-    padding-left: 212px;
+    /* padding-top: 44px; */
+    /* padding-left: 212px; */
     font-size: 36px;
+    display: block;
   }
   .crust-pizza-img {
-    padding-top: 40px;
+    /* padding-top: 40px;
     padding-left: 66px;
     width: 629px;
-    height: 375px;
+    height: 375px; */
   }
   .crust-pizza-body {
-    padding-top: 19px;
+    /* padding-top: 19px;
     padding-left: 75px;
-    width: 611px;
+    width: 611px; */
     font-size: 36px;
   }
   .shabu-heading {
