@@ -4,6 +4,11 @@
   place-items: left;
 }
 
+.body {
+  font-family: 'Ruluko', sans-serif;
+  font-size: 24px;
+}
+
 .about-title {
   background-image: linear-gradient(to right, #00493a, #00735c);
   text-align: center;
