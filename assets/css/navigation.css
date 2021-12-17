@@ -5,7 +5,7 @@
 
 /* Navigation Menu CSS */
 
-#navbar ul {
+#navbar ol {
   list-style: none;
   padding: 10px;
   text-align: center;
