@@ -25,7 +25,7 @@
 
 .menu-item-desc {
   font-family: 'Ruluko', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   padding: 20px;
 }
 
@@ -47,12 +47,12 @@
 .smoothie-list {
   text-align: center;
   font-family: 'Ruluko', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .smoothie-list p {
   font-family: 'Ruluko', sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   padding-bottom: 30px;
 }
 
@@ -67,7 +67,7 @@
   text-decoration: none;
   display: inline-block;
   font-family: 'Ruluko', sans-serif;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .button:hover {
@@ -87,7 +87,7 @@
 /*Menu Page Menu Items*/
 
   .smoothie-list {
-    font-size: 24px;
+    font-size: 32px;
   }
 
   .menu-items {
@@ -102,7 +102,7 @@
   }
 
   .menu-item p {
-    font-size: 24px;
+    font-size: 32px;
   }
 }
 
