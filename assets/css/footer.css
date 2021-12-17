@@ -13,6 +13,11 @@ body {
   color: white;
 }
 
+.attributions{
+  font-size: 15px;
+  color: white;
+}
+
 .fa {
   padding: 20px;
   font-size: 20px;
