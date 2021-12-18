@@ -55,43 +55,25 @@
   display: grid;
   grid-template-columns: 1fr;
 }
-.crust-pizza-heading {
-  padding-top: 128px;
-  /* padding-left: 101px; */
+.about-food-heading {
+  padding-top: 50px;
+  padding-left: 41px;
+  font-size: 24px;
+  display: block;
+  text-align: left;
+}
+.about-food-img {
+  padding-top: 20px;
+  padding-left: 41px;
+  width: 629px;
+}
+.about-food-body {
+  padding-top: 20px;
+  padding-left: 41px;
+  width: 611px;
   font-size: 24px;
   text-align: left;
 }
-.crust-pizza-img {
-  /* padding-top: 18px;
-  padding-left: 35px;
-  width: 340px;
-  height: 215px; */
-}
-.crust-pizza-body {
-  padding-top: 12px;
-  padding-left: 44px;
-  text-align: left;
-  font-size: 24px;
-  width: 331px;
-}
-/* .shabu-heading {
-  padding-top: 70px;
-  padding-left: 102px;
-  font-size: 24px;
-}
-.shabu-img {
-  padding-top: 18px;
-  padding-left: 35px;
-  width: 340px;
-  height: 215px;
-}
-.shabu-body {
-  padding-top: 12px;
-  padding-left: 40px;
-  text-align: center;
-  font-size: 24px;
-  width: 331px;
-} */
 
 /* Tablet and up */
 @media (min-width: 768px) {
@@ -125,43 +107,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .crust-pizza-heading {
-    padding-top: 146px;
-    padding-left: 86px;
-    font-size: 24px;
+  .about-food-heading {
+    padding-left: 37px;
   }
-  .crust-pizza-img {
-    /* padding-top: 18px;
-    padding-left: 28px;
-    width: 340px;
-    height: 215px; */
-    padding-top: 40px;
-    padding-left: 66px;
+  .about-food-img {
+    padding-left: 37px;
     width: 629px;
   }
-  .crust-pizza-body {
-    /* padding-top: 12px; */
-    padding-left: 33px;
-    width: 331px;
-    text-align: left;
-    font-size: 24px;
+  .about-food-body {
+    padding-left: 37px;
   }
-  /* .shabu-heading {
-    padding-top: 146px;
-    padding-left: 155px;
-  }
-  .shabu-img {
-    padding-top: 18px;
-    padding-left: 32px;
-    width: 340px;
-    height: 215px;
-  }
-  .shabu-body {
-    padding-top: 15px;
-    padding-left: 5px;
-    width: 369px;
-    text-align: center;
-  } */
 }
 
 /* Desktop and up */
@@ -197,41 +152,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .crust-pizza-heading {
-    /* padding-top: 44px; */
-    /* padding-left: 212px; */
+  .about-food-heading {
+    padding-left: 31px;
     font-size: 36px;
-    display: block;
   }
-  .crust-pizza-img {
-    padding-top: 40px;
-    padding-left: 66px;
+  .about-food-img {
+    padding-left: 31px;
     width: 629px;
-    /* height: 375px; */
   }
-  .crust-pizza-body {
-    /* padding-top: 19px; */
-    padding-left: 75px;
-    width: 611px;
-    font-size: 36px;
-    text-align: left;
-  }
-  /* .shabu-heading {
-    padding-top: 62px;
-    padding-left: 185px;
+  .about-food-body {
+    padding-left: 31px;
     font-size: 36px;
   }
-  .shabu-img {
-    padding-top: 40px;
-    padding-left: 57px;
-    width: 629px;
-    height: 375px;
-  }
-  .shabu-body {
-    padding-top: 19px;
-    padding-left: 75px;
-    width: 611px;
-    font-size: 36px;
-    text-align: ;
-  } */
 }
